@@ -1,0 +1,25 @@
+
+DROP TABLE t_aplicativo CASCADE CONSTRAINTS;
+DROP TABLE t_autoridade_ambiental CASCADE CONSTRAINTS;
+DROP TABLE t_comentario CASCADE CONSTRAINTS;
+DROP TABLE t_denuncia CASCADE CONSTRAINTS;
+DROP TABLE t_email CASCADE CONSTRAINTS;
+DROP TABLE t_localizacao CASCADE CONSTRAINTS;
+DROP TABLE t_notificacao CASCADE CONSTRAINTS;
+DROP TABLE t_residuos CASCADE CONSTRAINTS;
+DROP TABLE t_sistema CASCADE CONSTRAINTS;
+DROP TABLE t_usuario CASCADE CONSTRAINTS;
+DROP TABLE t_log_erros CASCADE CONSTRAINTS;
+
+
+DROP SEQUENCE sq_t_aplicativo ;
+DROP SEQUENCE sq_t_autoridade_ambiental;
+DROP SEQUENCE sq_t_comentario;
+DROP SEQUENCE sq_t_denuncia;
+DROP SEQUENCE sq_t_email;
+DROP SEQUENCE sq_t_localizacao;
+DROP SEQUENCE sq_t_notificacao;
+DROP SEQUENCE sq_t_residuos;
+DROP SEQUENCE sq_t_sistema;
+DROP SEQUENCE sq_t_usuario;
+DROP SEQUENCE sq_t_log_erros;
